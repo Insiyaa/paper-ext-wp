@@ -1532,7 +1532,7 @@ footer {
 	font-size: 1.5rem;
 	line-height: 2.7rem;
 	font-family: "raleway-medium", sans-serif;
-	color: #465166;
+	color: #6c80a8;
 }
 footer a, footer a:visited {
 	color: #007EE5;
@@ -1565,7 +1565,7 @@ footer ul li {
 	list-style: none;
 }
 .footer-main ul a, .footer-main ul a:visited {
-	color: #465166;
+	color: #6c80a8;
 }
 .footer-main ul a:hover, .footer-main ul a:focus {
 	color: #FFFFFF;
