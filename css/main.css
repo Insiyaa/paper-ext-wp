@@ -66,7 +66,9 @@ html, body {
 }
 body {
 	background: #14181E;
-	font-family: "merriweather-regular", serif;
+	/* font-family: "merriweather-regular", serif; */
+	font-family: 'Avenir', sans-serif !important;
+
 	font-size: 1.6rem;
 	line-height: 3rem;
 	color: #737373;
@@ -150,7 +152,7 @@ p img {
 	margin: 0;
 }
 p.lead {
-	font-family: "merriweather-light", serif;
+	font-family: "Avenir", serif !important;
 	font-size: 1.8rem;
 	line-height: 1.8;
 	color: #737373;
@@ -715,6 +717,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  */
 
 .section-intro {
+	font-family: "Avenir", serif !important;
 	max-width: 700px;
 	text-align: center;
 	margin-left: auto;
@@ -723,13 +726,14 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	position: relative;
 }
 .section-intro h1 {
-	font-family: "merriweather-bold", serif;
+	font-family: "Avenir", serif !important;
 	font-size: 4.8rem;
 	color: #252525;
 	line-height: 1.25;
 	margin-bottom: 1.2rem;
 }
 .section-intro h5 {
+	font-family: "Avenir", serif !important;
 	color: rgba(56, 66, 78, 0.5);
 	font-size: 1.6rem;
 	line-height: 1.875;
@@ -744,6 +748,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	overflow: hidden;
 }
 .section-intro .with-bottom-line::after {
+	font-family: "Avenir", serif !important;
 	display: block;
 	background-color: #007EE5;
 	width: 120px;
@@ -1176,7 +1181,7 @@ a.menu-toggle {
 }
 .intro-content h1 {
 	color: #FFFFFF;
-	font-family: "merriweather-bold", serif;
+	font-family: "Avenir", serif;
 	font-size: 5.4rem;
 	line-height: 1.334;
 	max-width: 800px;
@@ -1414,15 +1419,19 @@ a.menu-toggle {
 	padding-top: 12rem;
 	padding-bottom: 12rem;
 	color: white;
+	font-family: "Avenir", sans-serif !important;
 }
 #features .section-intro h1 {
 	color: white;
+	font-family: "Avenir", sans-serif !important;
 }
 #features .section-intro h5 {
 	color: rgba(255, 255, 255, 0.5);
+	font-family: "Avenir", sans-serif !important;
 }
 #features .section-intro p {
 	color: rgba(255, 255, 255, 0.7);
+	font-family: "Avenir", sans-serif !important;
 }
 .features-content {
 	max-width: 1200px;
@@ -1487,13 +1496,16 @@ a.menu-toggle {
 	background: #EAEAED;
 	padding-top: 12rem;
 	padding-bottom: 12rem;
+	font-family: "Avenir", sans-serif !important;
 }
 .faq-content {
 	margin-top: 5.4rem;
 	max-width: 1020px;
+	font-family: "Avenir", sans-serif !important;
 }
 .faq-content .bgrid {
 	padding: 0 30px;
+	font-family: "Avenir", sans-serif !important;
 }
 
 /**
