@@ -194,3 +194,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/avenir/AvenirLTStd-Book.otf') format('otf');
+    /* src: url('../fonts/merriweather/merriweather-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/merriweather/merriweather-regular-webfont.woff') format('woff'),
+         url('../fonts/merriweather/merriweather-regular-webfont.ttf') format('truetype'),
+         url('../fonts/merriweather/merriweather-regular-webfont.svg#merriweatherregular') format('svg'); */
+    font-weight: normal;
+    font-style: normal;
+}
