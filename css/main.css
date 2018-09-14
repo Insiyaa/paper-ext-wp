@@ -1180,9 +1180,18 @@ a.menu-toggle {
 	transform: translateY(-1.2rem);
 }
 .intro-content h1 {
-	color: #FFFFFF;
-	font-family: "Avenir", serif;
+	color: #2871a6;
+	font-family: "Avenir", sans-serif;
 	font-size: 5.4rem;
+	line-height: 1.334;
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.intro-content h2 {
+	color: #425d78;
+	font-family: "Avenir", sans-serif;
+	font-size: 3.2rem;
 	line-height: 1.334;
 	max-width: 800px;
 	margin-left: auto;
@@ -1237,6 +1246,10 @@ a.menu-toggle {
 		font-size: 4.8rem;
 		max-width: 700px;
 	}
+	.intro-content h2 {
+		font-size: 2.8rem;
+		max-width: 700px;
+	}
 	.intro-content h5 {
 		font-size: 1.6rem;
 	}
@@ -1254,6 +1267,10 @@ a.menu-toggle {
 		font-size: 4.2rem;
 		max-width: 550px;
 	}
+	.intro-content h2 {
+		font-size: 2.6rem;
+		max-width: 550px;
+	}
 	.intro-content h5 {
 		font-size: 1.5rem;
 		letter-spacing: .15rem;
@@ -1265,6 +1282,10 @@ a.menu-toggle {
 	}
 	.intro-content h1 {
 		font-size: 3.8rem;
+		margin-bottom: .9rem;
+	}
+	.intro-content h2 {
+		font-size: 2.4rem;
 		margin-bottom: .9rem;
 	}
 	.intro-content h5 {
@@ -1283,6 +1304,9 @@ a.menu-toggle {
 	}
 	.intro-content h1 {
 		font-size: 3.4rem;
+	}
+	.intro-content h2 {
+		font-size: 2.0rem;
 	}
 	.intro-content h5 {
 		font-size: 1.4rem;
@@ -1549,8 +1573,14 @@ footer {
 footer a, footer a:visited {
 	color: #007EE5;
 }
+.footer-info a, .footer-info a:visited {
+	color: #FFFFFF;
+}
 footer a:hover, footer a:focus {
 	color: #FFFFFF;
+}
+.footer-info a:hover, .footer-info a:focus {
+	color: #007EE5;
 }
 footer h4 {
 	border-bottom: 1px solid rgba(255, 255, 255, 0.03);
@@ -1585,7 +1615,7 @@ footer ul li {
 .footer-main .footer-logo {
 	width: 100px;
 	height: 100px;
-	background: url("../logo.png") no-repeat center;
+	background: url("../header.png") no-repeat center;
 	background-size: 100px 100px;
 	margin: -.6rem 0 2.1rem -.3rem;
 	display: block;
